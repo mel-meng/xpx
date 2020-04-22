@@ -1,0 +1,41 @@
+{
+    "nodes": {
+        "Node1": {
+            "command": "NODE",
+            "name": "Node1",
+            "type": "134",
+            "x": "269.097222222222",
+            "y": "-228.298611111111"
+        },
+        "Node2": {
+            "command": "NODE",
+            "name": "Node2",
+            "type": "134",
+            "x": "486.111111111111",
+            "y": "-233.506944444444"
+        },
+        "Node3": {
+            "command": "NODE",
+            "name": "Node3",
+            "type": "134",
+            "x": "703.993055555556",
+            "y": "-234.375"
+        }
+    },
+    "links": {
+        "Link1": {
+            "command": "LINK",
+            "name": "Link1",
+            "type": "136",
+            "from": "Node1",
+            "to": "Node2"
+        },
+        "Link2": {
+            "command": "LINK",
+            "name": "Link2",
+            "type": "136",
+            "from": "Node2",
+            "to": "Node3"
+        }
+    }
+}
